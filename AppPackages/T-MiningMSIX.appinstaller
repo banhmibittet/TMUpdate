@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3f3b342c0a25c7b933aa5c7a0a0e2ccf7bf5d81affa2b5df5abc610d3854ae98
-size 545
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://github.com/banhmibittet/TMUpdate/tree/main/AppPackages/T-MiningMSIX.appinstaller"
+	Version="1.0.2.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="1b1502da-66c5-4dc8-8a43-398831a08d9a"
+		Version="1.0.2.0"
+		Publisher="CN=BMRingo"
+		Uri="https://github.com/banhmibittet/TMUpdate/tree/main/AppPackages/T-MiningMSIX_1.0.2.0_Test/T-MiningMSIX_1.0.2.0_AnyCPU.appxbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
