@@ -1,4 +1,6 @@
 *.manifest binary
 *.application binary
 *.deploy binary
+*chrome.dll.deploy filter=lfs diff=lfs merge=lfs binary
 *  -text
+
