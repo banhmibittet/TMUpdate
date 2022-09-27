@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
-	Uri="https://github.com/banhmibittet/TMUpdate/tree/main/AppPackages/T-MiningMSIX.appinstaller"
-	Version="1.0.2.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Uri="https://t-mining.azurewebsites.net/T-MiningMSIX.appinstaller"
+	Version="1.0.5.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 	<MainBundle
 		Name="1b1502da-66c5-4dc8-8a43-398831a08d9a"
-		Version="1.0.2.0"
+		Version="1.0.5.0"
 		Publisher="CN=BMRingo"
-		Uri="https://github.com/banhmibittet/TMUpdate/tree/main/AppPackages/T-MiningMSIX_1.0.2.0_Test/T-MiningMSIX_1.0.2.0_AnyCPU.appxbundle" />
+		Uri="https://t-mining.azurewebsites.net/T-MiningMSIX_1.0.5.0_Test/T-MiningMSIX_1.0.5.0_AnyCPU.appxbundle" />
 	<UpdateSettings>
 		<OnLaunch
-			HoursBetweenUpdateChecks="0" />
+			HoursBetweenUpdateChecks="0"
+			ShowPrompt="true" />
+		<ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
 	</UpdateSettings>
 </AppInstaller>
